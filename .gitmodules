@@ -1,0 +1,9 @@
+[submodule "vcpkg"]
+	path = vcpkg
+	url = https://github.com/Microsoft/vcpkg.git
+[submodule "libs/raylib"]
+	path = libs/raylib
+	url = https://github.com/raysan5/raylib.git
+[submodule "libs/yojimbo"]
+	path = libs/yojimbo
+	url = https://github.com/networkprotocol/yojimbo.git

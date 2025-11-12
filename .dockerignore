@@ -1,0 +1,41 @@
+# Build artifacts
+build/
+*.o
+*.a
+*.so
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Documentation (not needed in container)
+*.md
+docs/
+
+# Test files (not needed for production)
+tests/
+test_*.cpp
+
+# Client files (not needed for server)
+client/
+
+# Development scripts
+scripts/
+
+# vcpkg cache (rebuilt in container)
+vcpkg/buildtrees/
+vcpkg/downloads/
+vcpkg/packages/
+
+# Other
+.DS_Store
+*.deb
+.claude/

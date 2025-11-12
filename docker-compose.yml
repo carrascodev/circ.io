@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  game-server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "40000:40000/udp"
+    environment:
+      - PORT=40000
+    restart: unless-stopped
+    container_name: circ-io-server

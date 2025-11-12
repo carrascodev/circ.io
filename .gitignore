@@ -1,0 +1,104 @@
+# Build directories
+build/
+build-*/
+bin/
+lib/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+!cmake/*.cmake
+
+# Compiled Object files
+*.o
+*.obj
+*.lo
+*.slo
+
+# Compiled Dynamic libraries
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.a
+*.lib
+*.la
+
+# Executables
+*.exe
+*.out
+*.app
+game_server
+game_client
+run_tests
+
+# IDE and Editor files
+.vscode/
+.vs/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-*
+.clangd/
+compile_commands.json
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# vcpkg
+vcpkg/buildtrees/
+vcpkg/downloads/
+vcpkg/packages/
+vcpkg/installed/
+vcpkg_installed/
+
+# Dependencies
+libs/*/build/
+libs/*/bin/
+libs/*/lib/
+
+# Test outputs
+Testing/
+test_detail.xml
+
+# Logs
+*.log
+logs/
+
+# Packages
+*.zip
+*.tar.gz
+*.dmg
+*.deb
+*.rpm
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+
+# Distribution packages
+circ-io-*.zip
+circ-io-*.tar.gz
+circ-io-*.dmg
+
+# Claude Code
+.claude/
+
+# Other
+*.bak
+*.orig
