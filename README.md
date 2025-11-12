@@ -24,9 +24,7 @@ Circ.io is a client-server networked game where players control growing circles 
 ## Building
 
 ```bash
-make build
-make game_server    # Run server
-make game_client    # Run client
+cmake -B build -S . -DCMAKE_TOOLCHAIN_FILE=vcpkg/scripts/buildsystems/vcpkg.cmake
 ```
 
 ## Credits
