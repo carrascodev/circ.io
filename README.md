@@ -23,6 +23,8 @@ Circ.io is a client-server networked game where players control growing circles 
 
 ## Building
 
+Install EASTL with vcpkg and run:
+
 ```bash
 cmake -B build -S . -DCMAKE_TOOLCHAIN_FILE=vcpkg/scripts/buildsystems/vcpkg.cmake
 ```
